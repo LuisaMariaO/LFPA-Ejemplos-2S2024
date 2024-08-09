@@ -12,7 +12,7 @@ program main
         print *, "4. Salir"
         print *, "Ingrese una opcion"
         read *,op !Leer la opcion del usuario
-        op = op + 1
+       
         select case (op)
             case(1)
                call comprarAuto()
