@@ -1,0 +1,5 @@
+agregar_gasolina Toyota;verde;10
+agregar_gasolina Nissan;rojo;20
+agregar_gasolina Chevrolet;negro;30
+quitar_gasolina Nissan;rojo;121
+quitar_gasolina Chevrolet;negro;10

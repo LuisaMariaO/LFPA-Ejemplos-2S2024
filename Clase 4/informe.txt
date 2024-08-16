@@ -1,0 +1,4 @@
+                         Marca                         Color                      Gasolina
+                        Nissan                          rojo                           120
+                        Toyota                         verde                            60
+                     Chevrolet                         negro                            30
