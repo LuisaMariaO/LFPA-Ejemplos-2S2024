@@ -1,0 +1,45 @@
+grafica: {
+nombre : "Gráfico de Rendimiento Deportivo";
+    deporte: {
+        nombre: "Fútbol";
+        equipo: {
+            nombre: "FC Barcelona"; 
+            partidosJugados: 38; 
+            porcentajeVictorias: 70%; 
+            logo: "C:\\imagenes\\fcbarcelona.jpg";
+        }
+        equipo: {
+            nombre: "Real Madrid"; 
+            partidosJugados: 38; 
+            porcentajeVictorias: 65%; 
+            logo: "C:\\imagenes\\realmadrid.jpg";
+        }
+        equipo: {
+            nombre: "Manchester United"; 
+            partidosJugados: 38; 
+            porcentajeVictorias: 60%; 
+            logo: "C:\\imagenes\\manutd.jpg";
+        }
+    }
+    deporte: {
+        nombre: "Baloncesto";
+        equipo: {
+            nombre: "Los Angeles Lakers"; 
+            partidosJugados: 82; 
+            porcentajeVictorias: 62%; 
+            logo: "C:\\imagenes\\lakers.jpg";
+        }
+        equipo: {
+            nombre: "Golden State Warriors"; 
+            partidosJugados: 82; 
+            porcentajeVictorias: 70%; 
+            logo: "C:\\imagenes\\warriors.jpg";
+        }
+        equipo: {
+            nombre: "Chicago Bulls"; 
+            partidosJugados: 82; 
+            porcentajeVictorias: 55%; 
+            logo: "C:\\imagenes\\bulls.jpg";
+        }
+    }
+}

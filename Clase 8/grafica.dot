@@ -1,0 +1,23 @@
+digraph G {
+"Grafico de Rendimiento Deportivo"[shape=Mdiamond]
+"Grafico de Rendimiento Deportivo"->"Futbol"
+"FC Barcelona"[style=filled shape=box label="FC Barcelona \n 8%"][fillcolor=red]"Futbol"
+->
+"FC Barcelona"
+"Real Madrid"[style=filled shape=box label="Real Madrid \n 14%"][fillcolor=red]"Futbol"
+->
+"Real Madrid"
+"Manchester United"[style=filled shape=box label="Manchester United \n 20%"][fillcolor=red]"Futbol"
+->
+"Manchester United"
+"Futbol"[style=filled shape=box label="Futbol \n 14%"][fillcolor=red]"Grafico de Rendimiento Deportivo"->"Baloncesto"
+"Los Angeles Lakers"[style=filled shape=box label="Los Angeles Lakers \n 29%"][fillcolor=green]"Baloncesto"
+->
+"Los Angeles Lakers"
+"Golden State Warriors"[style=filled shape=box label="Golden State Warriors \n 35%"][fillcolor=green]"Baloncesto"
+->
+"Golden State Warriors"
+"Chicago Bulls"[style=filled shape=box label="Chicago Bulls \n 41%"][fillcolor=green]"Baloncesto"
+->
+"Chicago Bulls"
+"Baloncesto"[style=filled shape=box label="Baloncesto \n 35%"][fillcolor=green]}

@@ -1,0 +1,14 @@
+Token                      Patrón                                   Expresión regular
+palabra_reservada          Palabras reservadas del lenguaje         letra+
+simbolo                    Símbolos permitidos en el lenguaje       :|{|}|;|%
+cadena                     Caracteres encerrados en comillas dobles " cualquier_cosa+ "
+entero                     Números enteros                          digito+
+
+
+Palabras reservadas: grafica, nombre, deporte, equipo, partidosJugados, porcentajeVictorias, logo
+digito = [0-9]
+letra = [a-zA-Z]
+
+
+(palabra_reservada|simbolo|cadena|entero) #
+(letra+ | simbolo | "cualquier_cosa+" | digito+) #
