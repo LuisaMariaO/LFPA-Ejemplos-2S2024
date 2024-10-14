@@ -11,8 +11,12 @@ module ControlModule
         character(len=:), allocatable :: colorFondo
         character(len=:), allocatable :: ancho
         character(len=:), allocatable :: alto
-        character(len=:), allocatable :: html_apertura
-        character(len=:), allocatable :: html_cierre
+        character(len=:), allocatable :: html_apertura 
+        character(len=:), allocatable :: html_cierre !SOLO USARLO SI SON CONTENEDORES, DE LO CONTRARIO LLENAR SOLO LA DE APERTURA PARA EVITAR PROBLEMAS CON RECURSIVIDAD
+        character(len=:), allocatable :: x
+        character(len=:), allocatable :: y
+        type(control), allocatable :: hijos(:) !ARREGLO CON HIJOS QUE SE LE PUEDEN ASIGNAR CON .ADD
+        
 
         contains
         procedure :: crearControl
