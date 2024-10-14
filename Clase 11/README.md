@@ -28,13 +28,13 @@ type(Control) :: controlInicial
 character(len=:), allocatable :: tipo
 character(len=:), allocatable :: id
 
- tipo="this"
+tipo="this"
 id="this"
         
 
 !CREACION DE EL CONTROLADOR PRINCIPAL QUE CONTIENE LA BASE HTML
 call this%agregarControl(tipo, id)
-!Obtengo el controloador que acabo de crear y le asigno el html inicial y final        controlInicial%html_apertura = controlInicial%html_apertura // '<html><head><link href="estilos.css" rel="stylesheet"type="text/css" /></head><body>'        
+!Obtengo el controloador que acabo de crear y le asigno el html inicial y final       controlInicial%html_apertura = controlInicial%html_apertura // '<html><head><link href="estilos.css" rel="stylesheet"type="text/css" /></head><body>'        
 controlInicial%html_cierre = controlInicial%html_cierre // '</body></html>'
 
 ~~~
