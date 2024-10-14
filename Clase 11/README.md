@@ -20,7 +20,7 @@ type :: Control
         
 ~~~~
 
-2. Agregar un componente inicial al inicio del análisis sintáctico que guarde el inicio y fin del html final.
+2. Agregar un componente inicial que guarde el inicio y fin del html resultante.
 
 ~~~
 type(Control) :: controlInicial
